@@ -17,12 +17,12 @@ Including another URLconf
 from django.urls import include, re_path
 
 from django.views.generic import RedirectView
-# from django.contrib import admin
+from django.contrib import admin
 from classify_image.views import classify, classify_api
 
 urlpatterns = [
     re_path(r'^classify_image/classify/api/$', classify_api),
     re_path(r'^classify_image/classify/$', classify),
-    re_path(r'^$', RedirectView.as_view(url='classify_image/classify/'))
-    # url(r'^admin/', admin.site.urls),
+    re_path(r'^$', RedirectView.as_view(url='classify_image/classify/')),
+    re_path(r'^admin/', admin.site.urls),
 ]
