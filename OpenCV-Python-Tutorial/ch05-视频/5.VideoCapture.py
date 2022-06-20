@@ -45,10 +45,10 @@ while cap.isOpened():  # 检查是否成功初始化，否则就 使用函数 ca
     # flipCode：翻转方向：1：水平翻转；0：垂直翻转；-1：水平垂直翻转
 
     # Our operations on the frame come here
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    # gray = cv2.cvtColor(frame, cv2.)
 
     # Display the resulting frame
-    cv2.imshow('frame', gray)
+    cv2.imshow('frame', frame)
     cv2.setWindowTitle('frame', 'COLOR_BGR2GRAY')
 
     # Property=cv2.getWindowProperty('frame',0)#无用
