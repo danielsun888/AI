@@ -9,6 +9,7 @@ print(cv2.__version__)
 # img = cv2.imread('messi5.jpg',cv2.IMREAD_COLOR)#读入一副彩色图像。图像的透明度会被忽略   默认参数。
 # img = cv2.imread('messi5.jpg', cv2.IMREAD_GRAYSCALE)# Load an color image in grayscale 灰度
 img = cv2.imread('messi5.jpg',cv2.IMREAD_UNCHANGED)#包括图像的 alpha 通道
+print('img shape:',img.shape)
 
 img = cv2.resize(img, (640, 480))
 

@@ -17,7 +17,10 @@ import cv2
 img = cv2.imread('../data/Lenna.png', cv2.IMREAD_UNCHANGED)
 print('img.shape:', img.shape)
 logo = cv2.imread('../data/opencv_logo.png', cv2.IMREAD_UNCHANGED)
+print('log_1.shape:', img.shape)
+
 logo = cv2.resize(logo, (20, 20))
+
 print('logo.shape:', logo.shape)
 butterfly= cv2.imread('../data/butterfly.jpg', cv2.IMREAD_UNCHANGED)
 butterfly = cv2.resize(butterfly, (20, 20))
