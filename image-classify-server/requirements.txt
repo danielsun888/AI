@@ -1,5 +1,0 @@
-Django
-Pillow
-gunicorn
-tensorflow
-WhiteNoise
