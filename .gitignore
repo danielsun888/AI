@@ -102,3 +102,4 @@ ENV/
 *.icloud
 .DS_Store
 aiffel/DAP_case_study/2021_data.csv
+aiffel/kaggle.json
