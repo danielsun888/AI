@@ -103,3 +103,14 @@ ENV/
 .DS_Store
 aiffel/DAP_case_study/2021_data.csv
 aiffel/kaggle.json
+aiffel/0724datathon/imdb-dataset.zip
+aiffel/0724datathon/imdb-dataset/name.basics.tsv.gz
+aiffel/0724datathon/imdb-dataset/name.basics.tsv/name.basics.tsv
+aiffel/0724datathon/imdb-dataset/title.akas.tsv.gz
+aiffel/0724datathon/imdb-dataset/title.akas.tsv/title.akas.tsv
+aiffel/0724datathon/imdb-dataset/title.basics.tsv.gz
+aiffel/0724datathon/imdb-dataset/title.basics.tsv/title.basics.tsv
+aiffel/0724datathon/imdb-dataset/title.principals.tsv.gz
+aiffel/0724datathon/imdb-dataset/title.principals.tsv/title.principals.tsv
+aiffel/0724datathon/imdb-dataset/title.ratings.tsv.gz
+aiffel/0724datathon/imdb-dataset/title.ratings.tsv/title.ratings.tsv
